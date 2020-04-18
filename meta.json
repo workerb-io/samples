@@ -1,0 +1,29 @@
+{
+  "description": "collection of samples",
+  "scripts": [
+    {
+      "name": "openImages",
+      "file": "openImages.js"
+    },
+    {
+      "name": "openGithub",
+      "file": "openGithub.js"
+    },
+    {
+      "name": "storeInformation",
+      "file": "storeInformation.js"
+    },
+    {
+      "name": "readAll",
+      "file": "readAll.js"
+    },
+    {
+      "name": "clickRegex",
+      "file": "clickRegex.js"
+    },
+    {
+      "name": "readTable",
+      "file": "readTable.js"
+    }
+  ]
+}
