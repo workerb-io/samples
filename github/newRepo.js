@@ -1,0 +1,7 @@
+open("https://github.com/")
+click('/html/body/div[1]/header/div[6]/details/summary', { method: 'by_xpath'})
+click('New repository', { expectReload: true })
+click('#repository_name', { method: 'by_query_selector'})
+type(args[0],{path: '#repository_name', method: 'by_query_selector'})
+click('Create repository', {})
+notify("Repository created", "success", 3000)

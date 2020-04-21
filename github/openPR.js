@@ -1,0 +1,1 @@
+open("https://github.com/" + args[0] + "/pull/" + args[1])

@@ -1,0 +1,25 @@
+{
+    "description": "github cheats",
+    "scripts": [
+      {
+        "name": "newRepo",
+        "file": "newRepo.js",
+        "type": "command"
+      },
+      {
+        "name": "openPR",
+        "file": "openPR.js",
+        "type": "command"
+      },
+      {
+        "name": "openProfile",
+        "file": "openProfile.js",
+        "type": "command"
+      },
+      {
+        "name": "openIssue",
+        "file": "openIssue.js",
+        "type": "command"
+      }
+    ]
+}

@@ -2,6 +2,12 @@
   "description": "collection of samples",
   "scripts": [
     {
+      "name": "github",
+      "file": "github",
+      "type": "node",
+      "description": "github cheat commands"
+    },
+    {
       "name": "openImages",
       "file": "openImages.js"
     },
