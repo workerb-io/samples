@@ -4,22 +4,26 @@
       {
         "name": "newRepo",
         "file": "newRepo.js",
-        "type": "command"
+        "type": "command",
+        "description": "create a new repo"
       },
       {
         "name": "openPR",
         "file": "openPR.js",
-        "type": "command"
+        "type": "command",
+        "description": "opens a new PR"
       },
       {
         "name": "openProfile",
         "file": "openProfile.js",
-        "type": "command"
+        "type": "command",
+        "description": "open github profile"
       },
       {
         "name": "openIssue",
         "file": "openIssue.js",
-        "type": "command"
+        "type": "command",
+        "description": "open github issue"
       }
     ]
 }
