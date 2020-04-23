@@ -2,10 +2,10 @@
   "description": "collection of samples",
   "scripts": [
     {
-      "name": "github",
-      "file": "github",
+      "name": "google",
+      "file": "google",
       "type": "node",
-      "description": "github cheat commands"
+      "description": "google cheat commands"
     },
     {
       "name": "openImages",
