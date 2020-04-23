@@ -1,7 +1,0 @@
-open("https://github.com/" + args[0] + "/compare/" + args[2] + "..." + args[1] + "?expand=1")
-var description = readAll(".commit-message")
-var descriptionText = JSON.parse(description).join("\n")
-log(descriptionText, "blue")
-type(descriptionText, {path: '#pull_request_body', method: 'by_query_selector'})
-click('Create pull request', {})
-notify("pull request created", "success", 3000)

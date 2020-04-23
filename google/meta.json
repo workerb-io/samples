@@ -1,0 +1,23 @@
+{
+    "description": "google cheats command",
+    "scripts": [
+      {
+        "name": "searchImages",
+        "file": "searchImages.js",
+        "type": "command",
+        "description": "search images"
+      },
+      {
+        "name": "openDoodle",
+        "file": "openDoodle.js",
+        "type": "command",
+        "description": "open doodle"
+      },
+      {
+        "name": "saveSearch",
+        "file": "saveSearch.js",
+        "type": "command",
+        "description": "save search url"
+      }
+    ]
+}
