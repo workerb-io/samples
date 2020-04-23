@@ -11,7 +11,13 @@
         "name": "openDoodle",
         "file": "openDoodle.js",
         "type": "command",
-        "description": "search images"
+        "description": "open doodle"
+      },
+      {
+        "name": "saveSearch",
+        "file": "saveSearch.js",
+        "type": "command",
+        "description": "save search url"
       }
     ]
 }
