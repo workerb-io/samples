@@ -30,6 +30,10 @@
     {
       "name": "readTable",
       "file": "readTable.js"
+    },
+    {
+      "name": "download",
+      "file": "download.js"
     }
   ]
 }
