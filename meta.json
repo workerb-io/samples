@@ -34,6 +34,14 @@
     {
       "name": "download",
       "file": "download.js"
+    },
+    {
+      "name": "readAlt",
+      "file": "readAlt.js"
+    },
+    {
+      "name": "newTab",
+      "file": "newTab.js"
     }
   ]
 }
