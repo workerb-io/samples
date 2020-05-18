@@ -1,6 +1,6 @@
 open("https://en.wikipedia.org/wiki/Main_Page")
 click('#searchInput', { method: "by_query_selector" })
-type(args.join(" "), { path: '#searchInput', method: 'by_query_selector' })
+type(args.join(" "), '#searchInput', { method: 'by_query_selector' })
 submit('#searchInput', { expectReload: true })
 var tableTxt = readAll(".mw-parser-output > p")
 tableTxt = JSON.parse(tableTxt).join("\n")
